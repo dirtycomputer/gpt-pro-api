@@ -14,7 +14,7 @@ RESPONSE_FILE = REPO_ROOT / "response.txt"
 HISTORY_DIR = REPO_ROOT / "history"
 HISTORY_FILE = HISTORY_DIR / "history.jsonl"
 
-MODEL = os.getenv("MODEL") or "gpt-5"  # 建议用 Models 页面里的当前可用模型
+MODEL = os.getenv("MODEL") or "gpt-5-pro-2025-10-06"  # 建议用 Models 页面里的当前可用模型
 
 
 def load_last_response_id() -> str | None:
