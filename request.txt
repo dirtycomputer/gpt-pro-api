@@ -1,1 +1,1 @@
-请帮我用pytorch分别实现所有常见的Integral Probability Metrics
+请帮我用pytorch分别实现如下的Integral Probability Metrics：tv ks w1 mmd
